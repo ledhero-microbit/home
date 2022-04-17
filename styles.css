@@ -4,11 +4,12 @@
 }
 
 body{
-    background: url(img/background.gif);
-    background-position: top;
-    font-family: sans-serif;
-    width: 100vw;
-}
+    background: url(img/background.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
 
 .logo{
     list-style: none;
