@@ -1,20 +1,24 @@
-*{
+* {
     padding: 0px;
     margin: 0;
 }
-body{
+
+body {
     background: url(img/background.gif) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    min-height: 100vh;display: grid;place-items: center;}
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
 
-header{
+header {
     padding: 0 5%;
 }
 
-.logo{
+.logo {
     list-style: none;
     display: flex;
     width: 100%;
@@ -22,23 +26,22 @@ header{
     margin-bottom: 6rem;
     /* margin-top: 100px; */
 }
-.logo img{
+
+.logo img {
     width: 100%;
     max-height: 260px;
     /* margin-top: 5%; */
 }
 
-
-.pages{
+.pages {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
     list-style: none;
+    gap: 8vw;
+}
 
-gap: 150px;}
-
-.pages img{
+.pages img {
     width: 100%;
     max-height: 200px;
-
 }
