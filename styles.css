@@ -21,13 +21,11 @@ header {
         -ms-flex-pack: center;
             justify-content: center;
     margin-bottom: 6rem;
-    /* margin-top: 100px; */
 }
 
 .logo img {
     width: 100%;
     max-height: 260px;
-    /* margin-top: 5%; */
 }
 
 .pages {
